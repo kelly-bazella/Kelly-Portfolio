@@ -5,6 +5,7 @@ function Contact() {
     <div className="container">
       <div className="row">
         <div className="col s12">
+        <br />
           <br />
           <i className="material-icons large">contact_mail</i>
           <h1>Contact Me</h1>
