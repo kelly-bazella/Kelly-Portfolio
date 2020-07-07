@@ -1,7 +1,5 @@
 import React, {Component} from "react";
-// import Card from "../components/Card"
-// var axios = require('axios')
-import "../Portfolio/style.css"
+import "./style.css"
 
 class Portfolio extends Component {
 // state={
@@ -27,7 +25,7 @@ render(){
   return(
     <div>
     <h1>Portfolio</h1>
-    {/* <Card /> */}
+ 
     <div className="container">
  
     < hr />
@@ -37,7 +35,8 @@ render(){
             <div className="card-image">
             <img
               src="Assets/images/TravelMaster.png"
-              style={{height:"200px", width:"475px"}}
+              //style={{height:"200px", width:"475px"}}
+              loading="lazy"
               // className="card-img-top"
               alt="travelmaster"
               
@@ -58,7 +57,7 @@ render(){
                 rel="noopener noreferrer"
                 className="btn btn-dark"
               >
-                Click to see the app
+                Application
               </a>
               <a
                 href="https://github.com/stevekindt/Project-1"
@@ -66,18 +65,20 @@ render(){
                 rel="noopener noreferrer"
                 className="btn btn-primary"
               >
-                Click to see the repository
+                Repository
               </a>
             </div>
           </div>
         </div>
         <div className="col s12 m6">
           <div className="card">
+            <div className="card-image">
             <img
               src="Assets/images/QuizGame.PNG"
-              style={{height:"200px", width:"475px"}}
-              alt="..."
+              alt="project"
             />
+            </div>
+           
             <div className="card-content">
               <span className="card-title">Quiz Game</span>
               <p>
@@ -90,7 +91,7 @@ render(){
                 rel="noopener noreferrer"
                 className="btn btn-dark"
               >
-                Click to see the app
+                Application
               </a>
               <a
                 href="https://github.com/kelly-bazella/Project-2"
@@ -98,7 +99,7 @@ render(){
                 rel="noopener noreferrer"
                 className="btn btn-primary"
               >
-                Click to see the repository
+                Repository
               </a>
             </div>
           </div>
@@ -108,11 +109,14 @@ render(){
       <div className="row">
         <div className="col s12 m6">
           <div className="card">
+            <div className="card-image">
             <img
               src="Assets/images/PasswordGenerator.png"
-              style={{height:"200px", width:"475px"}}
+             
               alt="..."
             />
+            </div>
+        
             <div className="card-content">
               <span className="card-title">Password Generator</span>
               <p>
@@ -125,18 +129,20 @@ render(){
                 rel="noopener noreferrer"
                 className="btn btn-primary"
               >
-                Click to see the repository
+                Repository
               </a>
             </div>
           </div>
         </div>
         <div className="col s12 m6">
           <div className="card">
+            <div className="card-image">
             <img
               src="Assets/images/view.gif"
-              style={{height:"200px", width:"475px"}}
               alt="..."
             />
+            </div>
+         
             <div className="card-content">
               <span className="card-title">Employee Tracker</span>
               <p>
@@ -151,7 +157,7 @@ render(){
                 rel="noopener noreferrer"
                 className="btn btn-primary"
               >
-                Click to see the repository
+                Repository
               </a>
             </div>
           </div>
@@ -161,11 +167,14 @@ render(){
       <div className="row">
         <div className="col s12 m6">
           <div className="card">
+            <div className="card-image">
             <img
               src="Assets/images/profile-generator.gif"
               className="card-img-top"
               alt="..."
             />
+            </div>
+        
             <div className="card-content">
               <span className="card-title">Profile Generator</span>
               <p>
@@ -179,19 +188,22 @@ render(){
                 rel="noopener noreferrer"
                 className="btn btn-dark"
               >
-                Click to see the repository
+                Repository
               </a>
             </div>
           </div>
         </div>
         <div className="col s12 m6">
           <div className="card">
+            <div className="card-image">
             <img
               src="Assets/images/employee-directory.PNG"
-              style={{height:"200px", width:"475px"}}
+          
               alt="..."
               className="fadein"
             />
+            </div>
+      
             <div className="card-content">
               <span className="card-title">Employee Directory</span>
               <p>
@@ -203,7 +215,7 @@ render(){
                 rel="noopener noreferrer"
                 className="btn btn-dark"
               >
-                Click to see the app
+                Application
               </a>
               <a
                 href="https://github.com/kelly-bazella/Employee-Directory"
@@ -211,7 +223,7 @@ render(){
                 rel="noopener noreferrer"
                 className="btn btn-dark"
               >
-                Click to see the repository
+                Repository
               </a>
             </div>
           </div>

@@ -6,6 +6,7 @@ class PageFooter extends Component {
   render() {
     return (
       <div>
+      
         <Footer
           className="example sticky-footer"
           links={
@@ -23,9 +24,19 @@ class PageFooter extends Component {
                 <Link style={{textDecoration: "none", color:"black"}} to="/portfolio">Portfolio</Link>
               </li>
             </ul>
+            
           }
         >
-    <i className="fa fa-github-square" aria-hidden="true"></i>
+
+    <h5>Let's Connect!</h5>
+    <p>Email | kelly.bazella@gmail.com</p>
+    <p>Phone Number | 952-649-8781</p>
+  
+  <a href="https://github.com/kelly-bazella" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-square" style={{fontSize:"36px", padding:"5px", color:"white"}} ></i></a>
+  <a href="https://www.linkedin.com/in/kellybazella/" target="_blank" rel="noopener noreferrer">
+  <i class="fa fa-linkedin-square" style={{fontSize:"36px", color:"white"}} ></i>
+  </a>
+  
         </Footer>
       </div>
     );
