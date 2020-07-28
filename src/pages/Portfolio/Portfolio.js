@@ -229,6 +229,75 @@ render(){
           </div>
         </div>
       </div>
+      <div className="row">
+      <div className="col s12 m6">
+
+      <div className="card">
+<div className="card-image">
+            <img
+              src="Assets/images/tasklist.PNG"
+          
+              alt="..."
+              className="fadein"
+            />
+            </div>
+
+            <div className="card-content">
+            <span className="card-title">Task List</span>
+              <p>
+                Created using Javascript and HTML. This applications allows you to save tasks to local storage, delete, and clear when completed. 
+              </p>
+              <a
+                href="https://github.com/kelly-bazella/Task-List"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                Repository
+              </a>
+            </div>
+</div>
+      </div>
+      <div className="col s12 m6">
+
+      <div className="card">
+<div className="card-image">
+            <img
+              src="Assets/images/sugarrush.PNG"
+          
+              alt="..."
+              className="fadein"
+            />
+            </div>
+
+            <div className="card-content">
+            <span className="card-title">Sugar Rush</span>
+              <p>
+               A React App created using the MERN stack. 
+              </p>
+              <a
+                href="https://sugar-gold-rush.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-dark"
+              >
+                Application
+              </a>
+              <a
+                href="https://github.com/laurenhallau/Sugar-Rush"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                Repository
+              </a>
+            </div>
+</div>
+      </div>
+
+
+ 
+      </div>
       <br />
       <div style={{height:'25px'}}></div>
     </div>

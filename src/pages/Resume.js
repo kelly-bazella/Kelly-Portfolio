@@ -53,7 +53,7 @@ class Resume extends Component {
             Member of the fun committee which aims to bring the department together to foster professional workplace relationship development
           </li>
           </ul>
-          <p><b>Relatent projects:</b></p>
+          <p><b>Relavent projects:</b></p>
           <ul>
           <li>Worked to update the HTML of all job postings to be more cohesive, user-friendly, and professional looking</li>
           <li>
